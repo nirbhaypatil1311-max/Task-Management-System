@@ -72,16 +72,9 @@ A full-stack task management application built with Next.js 16, featuring JWT au
 - MySQL 8.0 or higher
 - npm, yarn, or pnpm
 
-## Installation
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/task-management-system.git
-cd task-management-system
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 npm install
@@ -91,7 +84,7 @@ yarn install
 pnpm install
 ```
 
-### 3. Environment Variables
+### 2. Environment Variables
 
 Create a `.env.local` file in the root directory:
 
@@ -115,7 +108,7 @@ NODE_ENV=development
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
-### 4. Database Setup
+### 3. Database Setup
 
 #### Create Database
 
@@ -146,7 +139,7 @@ const hash = await bcrypt.hash('Admin@123', 10);
 console.log(hash);
 ```
 
-### 5. Run the Development Server
+### 4. Run the Development Server
 
 ```bash
 npm run dev
