@@ -198,7 +198,6 @@ task-management-system/
 ├── postman_collection.json  # Postman API collection
 ├── DATABASE_SETUP.md        # Database setup guide
 ├── API_DOCUMENTATION.md     # API reference
-├── SCALABILITY.md           # Scalability considerations
 └── README.md
 ```
 
